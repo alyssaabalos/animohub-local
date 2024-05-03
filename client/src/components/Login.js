@@ -1,11 +1,12 @@
 import React from 'react';
 import '../styles/LoginPage.css';
-
+import logo from '../styles/logo-nobg.png'
 
 const LoginPage = () => {
   return (
     <div className="login-container">
       <header className="login-header">
+      <img src={logo} alt="AnimoHub Logo" className="login-logo" />
         AnimoHub Digital Repository System
       </header>
       <div className="login-body">
