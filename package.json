@@ -18,10 +18,12 @@
   },
   "scripts": {
     "install": "concurrently \"cd ./server && npm i\" \"cd ./client && npm i\"",
-    "start": "NODE_OPTIONS=--openssl-legacy-provider concurrently \"cd ./server && npm start\" \"cd ./client && npm start\"",
-    "delete-modules": "rm -r ./node_modules && cd ./server && rm -r ./node_modules && cd ../client && rm -r ./node_modules"
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider concurrently \"cd ./server && npm start\" \"cd ./client && npm start\"",
+    "delete-modules": "rimraf ./node_modules && rimraf ./server/node_modules && rimraf ./client/node_modules"
   },
   "devDependencies": {
-    "concurrently": "^6.3.0"
+    "concurrently": "^6.3.0",
+    "cross-env": "^7.0.3",
+    "rimraf": "^5.0.5"
   }
 }
