@@ -1,0 +1,37 @@
+.compsci
+{
+    position: fixed;
+    top: 0;  
+    left: 0; 
+    width: 500px; 
+    height: 270px;
+    z-index: 1000; 
+    opacity: 0.5;
+    filter: grayscale(0%) sepia(100%) hue-rotate(120deg);
+}
+
+.altdsi
+{
+    position: fixed;
+    top: 270px;  /* Position the second image directly below the first */
+    left: 0;
+    width: 500px;  /* Match the width of the first image */
+    height: 270px;  /* Optionally, adjust height as needed */
+    z-index: 999;  /* Keep it below or at the same level as the first image */
+    opacity: 0.5;
+    filter: grayscale(0%) sepia(100%) hue-rotate(120deg);
+}
+   
+
+
+.building
+{
+    position: fixed;
+    top: 540px;  /* Position the second image directly below the first */
+    left: 0;
+    width: 500px;  /* Match the width of the first image */
+    height: 310px;  /* Optionally, adjust height as needed */
+    z-index: 999;  
+    opacity: 0.5;
+    filter: grayscale(0%) sepia(100%) hue-rotate(120deg);
+}
