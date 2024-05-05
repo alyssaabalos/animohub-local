@@ -1,17 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
-import {AuthProvider} from './contexts/AuthContext'
-import CssBaseline from '@mui/material/CssBaseline'
-import '@fontsource/roboto'
-import './styles/index.css'
+import React from 'react';
+import { createRoot } from 'react-dom/client';  
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
 
-ReactDOM.render(
+const container = document.getElementById('root'); 
+const root = createRoot(container); 
+
+root.render(
   <React.StrictMode>
-    <AuthProvider>
-      <CssBaseline />
+    <BrowserRouter>
       <App />
-    </AuthProvider>
-  </React.StrictMode>,
-  document.getElementById('root'),
-)
+    </BrowserRouter>
+  </React.StrictMode>
+);
