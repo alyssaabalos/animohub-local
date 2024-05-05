@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Description.css';
+import logo from '../styles/logo-nobg.png';
 
 
 function Description() {
@@ -17,12 +18,12 @@ function Description() {
 function Header() {
   return (
     <header>
-      <h1>My Dataset Page</h1>
       <nav>
-        <a href="#home">Home</a>
-        <a href="#submissions">Submissions</a>
-        <a href="#account">My Account</a>
-        <a href="#contact">Contact Us</a>
+      <img src={logo} alt="AnimoHub Logo" className="login-logo" />
+        <a href="#home">HOME</a>
+        <a href="#submissions">SUBMISSIONS</a>
+        <a href="#account">MY ACCOUNT</a>
+        <a href="#contact">CONTACT US</a>
       </nav>
     </header>
   );
