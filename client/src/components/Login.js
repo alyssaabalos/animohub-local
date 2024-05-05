@@ -13,6 +13,10 @@ const LoginPage = () => {
     navigate('/dashboard'); 
   };
 
+  const handleRegister = () => {
+    navigate('/register');
+  };
+
   return (
     <div className="main-layout">
       <ImageStack />
@@ -30,6 +34,11 @@ const LoginPage = () => {
             <button type="submit">LOGIN</button>
           </form>
           <div className="forgot-password">Forgot Password?</div>
+          <div className="register-section">
+            <br>
+            </br>
+            Don't have an account? <button onClick={handleRegister}>Register</button>
+          </div>
         </div>
       </div>
     </div>
