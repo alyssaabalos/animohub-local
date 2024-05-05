@@ -17,7 +17,7 @@ function Description() {
 
 function Header() {
   return (
-    <header>
+    <header className='description-navbar'>
       <div className="logo-container">
         <img src={logo} alt="AnimoHub Logo" className="login-logo" />
       </div>
