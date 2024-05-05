@@ -50,6 +50,7 @@
 .or-section {
     margin: 20px 150px;
     color: #333;
+    font-family: 'Poppins', sans-serif;
 }
 
 .login-form input {
@@ -76,4 +77,5 @@
     margin-left: 200px;
     color: #527A54;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }
