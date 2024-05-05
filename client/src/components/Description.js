@@ -18,8 +18,10 @@ function Description() {
 function Header() {
   return (
     <header>
+      <div className="logo-container">
+        <img src={logo} alt="AnimoHub Logo" className="login-logo" />
+      </div>
       <nav>
-      <img src={logo} alt="AnimoHub Logo" className="login-logo" />
         <a href="#home">HOME</a>
         <a href="#submissions">SUBMISSIONS</a>
         <a href="#account">MY ACCOUNT</a>
@@ -28,6 +30,7 @@ function Header() {
     </header>
   );
 }
+
 
 function Sidebar() {
   return (

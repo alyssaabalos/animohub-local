@@ -15,28 +15,31 @@ html, body
     width: 100%;  
 }
 
-header
-{
+header {
     display: flex;
-    align-items: center; 
-    justify-content: space-between;  
+    align-items: center;
+    justify-content: space-between;
     background-color: #D9D9D9;
     color: white;
-    padding: 10px 20px;  
+    padding: 10px 20px;
     width: 100%;
     font-family: 'Poppins', sans-serif;
 }
 
+.logo-container {
+    flex: 0 1 auto; 
+}
+
 .login-logo {
-   
-    width: 80px;
+    width: 80px; 
     height: auto;
 }
 
-
 nav {
     display: flex;
-    justify-content: center; 
+    justify-content: flex-end;
+    flex: 1;
+    padding-right: 30px;
 }
 
 nav a {
@@ -44,6 +47,7 @@ nav a {
     color: white;
     text-decoration: none;
 }
+
 
 .content {
     display: flex;
