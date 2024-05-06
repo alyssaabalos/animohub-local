@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Roboto:wght@400;700&family=Rubik:wght@600&display=swap');
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FFFFFF;
+    padding-left: 500px; 
+}
+
+.register-header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #527A54;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center; 
+}
+
+.register-logo {
+    margin-bottom: 10px; 
+    width: 80px;
+    height: auto;
+}
+
+.register-body {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.register-form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.register-form button {
+    width: 80%;
+    padding: 10px;
+    background-color: #527A54;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px auto;  /* Centers the button horizontally and adds vertical spacing */
+    display: block;  /* Ensures the button is treated as a block-level element */
+}
+
+.register-section
+{
+    margin-left: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: #527A54;
+}
+
+.name-fields {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Adjust based on your layout needs */
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.name-fields input {
+    width: calc(50% - 10px); /* Adjusts width to account for the gap */
+    margin: 10px 0; /* Keeps vertical spacing consistent */
+}
+
+.info-fields {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Adjust based on your layout needs */
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.info-fields input {
+    width: calc(50% - 10px); /* Adjusts width to account for the gap */
+    margin: 10px 0; /* Keeps vertical spacing consistent */
+}
+
+.user-email-fields {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Adjust based on your layout needs */
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.user-email-fields input {
+    width: calc(50% - 10px); /* Adjusts width to account for the gap */
+    margin: 10px 0; /* Keeps vertical spacing consistent */
+}
+
+.password-fields {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Adjust based on your layout needs */
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.password-fields input {
+    width: calc(50% - 10px); /* Adjusts width to account for the gap */
+    margin: 10px 0; /* Keeps vertical spacing consistent */
+}
+
+/* Add a blue text color to links */
+a {
+    color: #527A54;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
