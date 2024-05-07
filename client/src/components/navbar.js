@@ -17,6 +17,9 @@ const NavBar = () => {
           <a href="/submissions" className="nav-link">SUBMISSIONS</a>
         </li>
         <li className="nav-item">
+          <a href="/requestform" className="nav-link">REQUESTS</a>
+        </li>
+        <li className="nav-item">
           <a href="/myaccount" className="nav-link">MY ACCOUNT</a>
         </li>
         <li className="nav-item">
