@@ -67,10 +67,16 @@ main {
     flex: 1; 
     padding: 20px;
     box-sizing: border-box; 
+    color: #527A54;
 }
 
 footer 
 {
     text-align: center;
     width: 100%; 
+}
+
+strong
+{
+    color: #5F5E5E;
 }
