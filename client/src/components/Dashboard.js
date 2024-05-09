@@ -9,7 +9,7 @@ const Dashboard = () => {
             <NavBar />
             <div className="container">
               <div className="searchContainer">
-                <input type="text" placeholder="Datasets" className="searchInput" />
+                <input type="text" placeholder="Search" className="searchInput" />
                 <button className="searchButton">Search</button>
               </div>
               <h1 className='page-title'>ALTDSI AnimoHub</h1>
