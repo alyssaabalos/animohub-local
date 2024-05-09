@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Roboto:wght@400;700&family=Rubik:wght@600&display=swap');
 
-.container {
+.dashboardContainer {
     display: flex;
     flex-direction: column;  /* Keeps items in a vertical stack */
     align-items: center;  /* Center items horizontally */
     justify-content: center;  /* Center items vertically */
-    margin-top: 50px;
 }
 
 .searchContainer {
     display: flex;  /* Aligns children (input and button) inline */
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: auto;  /* Adjust width as needed based on content */
 }
 
 .searchInput {
     padding: 10px;
-    width: 999px;  /* You can adjust the width as needed */
+    width: 500px;  /* You can adjust the width as needed */
     background-color: #d3d3d3;
     border: 1px solid #bbb;
     border-right: none;  /* Seamless transition to button */
@@ -39,7 +39,6 @@
 .page-title {
     font-family: 'Poppins', sans-serif;
     color: #527A54;
-    margin-top: 50px;
 }
 
 .titleImage {
@@ -64,4 +63,187 @@
 .section-two {
     font-family: 'Poppins', sans-serif;
     color: #527A54;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.box {
+    width: 239px;
+    height: 227px; /* Adjusted to accommodate the image */
+    background-color: #f0f0f0; /* Light grey background */
+    display: flex;
+    flex-direction: column; /* Stack image and link vertically */
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 10px;
+    margin: 10px; /* Adds margin around each box */
+    padding: 10px; /* Padding inside the box */
+}
+
+.box-image {
+    width: 71px; /* Adjust width as needed */
+    height: 69px; /* Maintain aspect ratio */
+    margin-top: 10px;
+}
+
+.box-link {
+    color: #527A54; /* Link color, adjust as needed */
+    text-decoration: none; /* Removes underline from links */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.box-link:hover {
+    text-decoration: underline; /* Adds underline on hover for better visibility */
+}
+
+.special-link {
+    margin-bottom: 33px; /* Larger margin for specific boxes */
+}
+
+.box-2 {
+    width: 45px;
+    height: 39px;
+}
+
+.image-row {
+    display: flex; /* Ensures images are lined up horizontally */
+    align-items: center; /* Aligns images vertically in the middle */
+    justify-content: center; /* Center images horizontally */
+    width: 100%; /* Take full width of the box */
+    padding-top: 10px; /* Space between images and the link */
+}
+
+.link {
+    margin-top: 26px;
+}
+
+.glance-title {
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #5F5E5E;
+}
+
+.glance-boxes {
+    display: flex;
+    flex-direction: column; /* Stacks the boxes vertically */
+    align-items: center; /* Centers the boxes horizontally */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.glance-box {
+    display: flex;
+    flex-direction: column; /* Keeps the image and text stacked vertically within each box */
+    align-items: left; /* Centers the contents of the box horizontally */
+    justify-content: center; /* Centers the contents vertically */
+    width: 440px; /* Sets a fixed width for each box */
+    padding: 15px; /* Adds padding inside the box */
+    border: 1px solid #ccc; /* Adds a subtle border */
+    margin-bottom: 0px; /* Removes space between each box */
+    font-family: 'Poppins', sans-serif; /* Sets the font style */
+    font-size: 15px; /* Sets the size of the font */
+    color: #5F5E5E;
+}
+
+.glance-box-text {
+    text-align: left; /* Centers the text */
+    font-family: 'Poppins', sans-serif; /* Sets the font style */
+    font-size: 20px; /* Sets the size of the font */
+}
+
+.paper-title {
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #5F5E5E;
+}
+
+.paper-boxes {
+    display: flex;
+    flex-direction: column; /* Stacks the boxes vertically */
+    align-items: left; /* Centers the boxes horizontally */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paper-box {
+    display: flex;
+    flex-direction: column; /* Keeps the image and text stacked vertically within each box */
+    align-items: left; /* Centers the contents of the box horizontally */
+    justify-content: center; /* Centers the contents vertically */
+    width: 440px; /* Sets a fixed width for each box */
+    padding: 15px; /* Adds padding inside the box */
+    padding-bottom: 0px;
+    border: 1px solid #ccc; /* Adds a subtle border */
+    font-family: 'Poppins', sans-serif; /* Sets the font style */
+    font-size: 15px; /* Sets the size of the font */
+    color: #5F5E5E;
+}
+
+.paper-box-text {
+    text-align: left; /* Centers the text */
+    font-family: 'Poppins', sans-serif; /* Sets the font style */
+    font-size: 16px; /* Sets the size of the font */
+}
+
+.dataset-title {
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #5F5E5E;
+}
+
+.dataset-boxes {
+    display: flex;
+    flex-direction: column; /* Stacks the boxes vertically */
+    align-items: left; /* Centers the boxes horizontally */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dataset-box {
+    display: flex;
+    flex-direction: column; /* Keeps the image and text stacked vertically within each box */
+    align-items: left; /* Centers the contents of the box horizontally */
+    justify-content: center; /* Centers the contents vertically */
+    width: 440px; /* Sets a fixed width for each box */
+    padding: 15px;
+    border: 1px solid #ccc; /* Adds a subtle border */
+    font-family: 'Poppins', sans-serif; /* Sets the font style */
+    font-size: 15px; /* Sets the size of the font */
+    color: #5F5E5E;
+    margin-bottom: 100px;
+}
+
+.dataset-box-text {
+    text-align: left; /* Centers the text */
+    font-family: 'Poppins', sans-serif; /* Sets the font style */
+    font-size: 16px; /* Sets the size of the font */
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;  /* Adds space between the two columns */
+}
+
+.left-column, .right-column {
+    width: 50%; /* Gives each column half the width of the parent container */
+}
+
+.left-column {
+    padding-right: 20px; /* Adds some spacing between the two columns */
+}
+
+.right-column {
+    padding-left: 20px; /* Also adds some spacing for a balanced look */
 }
