@@ -61,9 +61,10 @@ const Register = () => {
             <input type="password" pattern="(?=.*\d)(?=.*[a-zA-Z]).{8,}" name="confirmPassword" placeholder="Confirm Password" required />
             <button type="submit" className='submit'>REGISTER</button>
           </form>
-          <div className="container signin">
-            <p>Already have an account? <Link to="/">Sign in</Link>.</p>
-          </div>
+          <br>
+          </br>
+            <p id="question">Already have an account? <Link to="/">Sign in</Link>.</p>
+          
         </div>
       </div>
     </div>

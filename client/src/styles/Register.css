@@ -75,3 +75,9 @@
 a {
     color: #527A54; /* Consistent color for links */
 }
+
+#question
+{
+    padding-left: 70px;
+    font-family: 'Poppins', sans-serif;
+}
