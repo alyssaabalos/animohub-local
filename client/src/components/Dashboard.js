@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './navbar';
+import Footer from './Footer';
 import styles from '../styles/Dashboard.css'; // Import the styles
 import logo from '../styles/dlsu-henry.png';
 import paper from '../styles/paper.png';
@@ -8,6 +9,7 @@ import excel from '../styles/excel.png';
 import sound from '../styles/sound.png';
 import video from '../styles/video.png';
 import gallery from '../styles/gallery.png';
+
 
 const Dashboard = () => {
     return (
@@ -78,11 +80,14 @@ const Dashboard = () => {
                       <a href="URL5" className="dataset-box-text">Names of Titanic Passengers</a>
                       <p>Published by: Dela Cruz, J.</p>
                       <p>Type: CSV/XLSX</p>
+                      <br></br>
+                     
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <Footer/>
         </div>
     );
 };
