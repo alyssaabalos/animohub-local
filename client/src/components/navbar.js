@@ -1,7 +1,6 @@
-import React from 'react'; 
+import React from 'react';
 import '../styles/navbar.css';
 import logo from '../styles/logo-nobg.png';
-
 
 const NavBar = () => {
   return (
@@ -20,14 +19,15 @@ const NavBar = () => {
           <a href="/requestform" className="nav-link">REQUESTS</a>
         </li>
         <li className="nav-item">
-          <a href="/myaccount" className="nav-link">MY ACCOUNT</a>
+          {/* Dropdown Trigger */}
+          <div className="nav-link dropdown-toggle">MY ACCOUNT</div>
+          {/* Dropdown Menu */}
+          <ul className="dropdown-menu">
+            <li><a href="/">Logout</a></li>
+            
+          </ul>
         </li>
-        <li className="nav-item">
-          <a href="/contactus" className="nav-link">CONTACT US</a>
-        </li>
-        <li className="nav-item">
-          <a href="/" className="nav-link logout-link">LOGOUT</a>
-        </li>
+        
       </ul>
     </nav>
   );
