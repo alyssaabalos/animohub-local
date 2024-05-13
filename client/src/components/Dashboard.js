@@ -18,7 +18,7 @@ const Dashboard = () => {
             <div className="dashboardContainer">
               <div className="searchContainer">
                 <input type="text" placeholder="Search" className="searchInput" />
-                <button className="searchButton">Search</button>
+                <a href="/search" className="searchButton">Search</a>
               </div>
               <h1 className='page-title'>ALTDSI AnimoHub</h1>
               <img src={logo} alt="Descriptive Alt Text" className="titleImage" />
