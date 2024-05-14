@@ -2,25 +2,25 @@
 
 .dashboardContainer {
     display: flex;
-    flex-direction: column;  /* Keeps items in a vertical stack */
-    align-items: center;  /* Center items horizontally */
-    justify-content: center;  /* Center items vertically */
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center; 
 }
 
 .searchContainer {
-    display: flex;  /* Aligns children (input and button) inline */
+    display: flex;  
     margin-top: 50px;
     margin-bottom: 50px;
-    width: auto;  /* Adjust width as needed based on content */
+    width: auto;  
 }
 
 .searchInput {
     padding: 10px;
-    width: 500px;  /* You can adjust the width as needed */
+    width: 500px;  
     background-color: #d3d3d3;
     border: 1px solid #bbb;
-    border-right: none;  /* Seamless transition to button */
-    margin-right: 8px;  /* Adjust this value to increase or decrease spacing */
+    border-right: none;  
+    margin-right: 8px; 
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
 }
@@ -30,7 +30,7 @@
     background-color: #527A54;  
     color: white;
     border: 1px solid #bbb;
-    cursor: pointer;  /* Pointer on hover */
+    cursor: pointer; 
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
 
@@ -42,22 +42,22 @@
 }
 
 .titleImage {
-    width: 100%; /* Adjust width as needed, or set to a fixed width */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensures no inline whitespace */
-    margin: 20px auto; /* Adds vertical space and centers horizontally */
+    width: 100%; 
+    height: auto;
+    display: block;
+    margin: 20px auto;
 }
 
 .description {
-    width: 1231px;  /* Set the width to 1231 pixels */
-    height: auto;  /* Set the height to 152 pixels */
-    overflow: auto;  /* Add scrollbars if content overflows */
-    padding: 10px;  /* Optional: adds padding inside the box */
-    box-sizing: border-box; /* Include padding in the height and width calculation */
+    width: 1231px;  
+    height: auto;  
+    overflow: auto;  
+    padding: 10px;  
+    box-sizing: border-box; 
     font-family: 'Poppins', sans-serif;
-    align-items: center;  /* Centers text vertically */
-    justify-content: center;  /* Centers text horizontally */
-    text-align: center;  /* Aligns text center horizontally for each line */
+    align-items: center; 
+    justify-content: center;  
+    text-align: center; 
 }
 
 .section-two {

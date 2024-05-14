@@ -1,0 +1,22 @@
+aside {
+    background-color: #f4f4f4;
+    padding: 30px;
+    width: 200px; 
+    position: relative;
+    top: -147px; 
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    user-select: none;
+}
+
+h3:hover {
+    color: #527A54; /* Adjust the color as per your theme */
+}
+
+div p {
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}

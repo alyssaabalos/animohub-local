@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './navbar';
 import Footer from './Footer';
-import styles from '../styles/Dashboard.css'; // Import the styles
+import '../styles/Dashboard.css'; // Import the styles
 import logo from '../styles/dlsu-henry.png';
 import paper from '../styles/paper.png';
 import software from '../styles/software.png';
