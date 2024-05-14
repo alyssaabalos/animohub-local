@@ -1,82 +1,66 @@
-html, body 
-{
+body, html {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF; /* Set background color */
 }
-  
-.App 
-{
+
+.App {
     display: flex;
     flex-direction: column;
-    height: 100vh; 
-    width: 100%;  
+    height: 100vh;
 }
 
 .description-navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #D9D9D9;
+    background-color: #D9D9D9; /* Change navbar color */
     color: white;
     padding: 10px 20px;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
 }
 
-.logo-container {
-    flex: 0 1 auto; 
-}
-
-.login-logo {
-    width: 80px; 
+.logo-container img {
     height: auto;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-    flex: 1;
-    padding-right: 30px;
+    width: 80px; /* Adjust logo size if needed */
 }
 
 nav a {
-    margin: 0 10px;
     color: white;
     text-decoration: none;
+    margin-left: 20px; /* Ensure proper spacing */
 }
-
 
 .content {
     display: flex;
-    flex: 1; 
-    width: 100%; 
-    font-family: 'Poppins', sans-serif;
-    font-size: 200;
-}
-
-aside {
-    background-color: #f4f4f4;
+    flex: 1;
     padding: 20px;
-    width: 200px; 
+    background-color: #f4f4f4; /* Slight grey background */
 }
 
 main {
-    flex: 1; 
+    flex: 1;
+    background-color: #fff; /* Background white for main content */
     padding: 20px;
-    box-sizing: border-box; 
-    color: #527A54;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Add shadow to main content */
+    border-radius: 10px; /* Rounded corners */
 }
 
-footer 
-{
+button {
+    background-color: #527A54 !important; /* Green background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px; /* Rounded button */
+    cursor: pointer;
+    margin: 5px; /* Spacing between buttons */
+}
+
+footer {
     text-align: center;
-    width: 100%; 
-}
-
-strong
-{
-    color: #5F5E5E;
+    width: 100%;
+    background-color: #D9D9D9; /* Footer background */
+    color: #000; /* Footer text color */
+    padding: 10px 0;
 }

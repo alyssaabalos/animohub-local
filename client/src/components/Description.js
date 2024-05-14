@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Description.css';
 import logo from '../styles/logo-nobg.png';
+import Sidebar from './Sidebar';
 
 
 function Description() {
@@ -8,7 +9,7 @@ function Description() {
     <div className="App">
       <Header />
       <div className="content">
-        <Sidebar />
+      <Sidebar/>
         <MainContent />
       </div>
     </div>
@@ -32,35 +33,7 @@ function Header() {
 }
 
 
-function Sidebar() {
-  return (
-    <aside>
-      <h3>Disciplines</h3>
-      <button>Data Science</button>
-      <button>Computer Technology</button>
-      <button>Engineering</button>
-      <br>
-      </br>
-      <h3>Publication Type</h3>
-      <button>Thesis Dissertations</button>
-      <button>Articles</button>
-      <button>Research Papers</button>
-      <button>Video Datasets</button>
-      <button>Audio Datasets</button>
-      <button>Software Programs</button>
-      <br>
-      </br>
-      <h3>Publication Type</h3>
-      <button>Year</button>
-      <button>2023</button>
-      <button>2022</button>
-      <button>2021</button>
-      <button>2020</button>
-      <button>2019</button>
-    </aside>
-    
-  );
-}
+
 
 function MainContent() {
   return (
