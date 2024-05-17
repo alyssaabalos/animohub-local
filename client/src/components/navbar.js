@@ -16,7 +16,7 @@ const NavBar = () => {
           <a href="/submit" className="nav-link">SUBMISSIONS</a>
         </li>
         <li className="nav-item">
-          <a href="/requestform" className="nav-link">REQUESTS</a>
+          <a href="/myrequests" className="nav-link">REQUESTS</a>
         </li>
         <li className="nav-item">
           <div className="nav-link dropdown-toggle">MY ACCOUNT</div>
