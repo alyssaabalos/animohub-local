@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body, .submit-container, .input-group label, .input-box, .dropdown-box, .submit-button button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; /* Ensure text is not bold */
+}
+
+.submit-container {
+    padding: 20px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between the input groups */
+}
+
+h2 {
+    margin: 80px 0 10px 80px;
+    width: 100%; /* Make the heading span the full width */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; /* Ensure headers are bold */
+    color: #527A54; /* Ensure color stays consistent */
+}
+
+.input-group {
+    flex: 1;
+    min-width: 331px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    width: 100%;
+    height: 55px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+}
+
+.submit-container-row {
+    display: flex;
+    gap: 20px; /* Adjust the gap between the input groups */
+    width: calc(100% - 160px); /* Ensure the row takes full width minus padding */
+    padding: 0 80px; /* Add padding to left and right */
+    margin-bottom: 15px;
+}
+
+.title-group, .dropdown-group {
+    padding-left: 80px;
+    margin-bottom: 15px;
+}
+
+.title-group {
+    padding-right: 80px;
+}
+
+.dropdown-box {
+    width: 331px; /* Ensures the dropdown width is 331px */
+}
+
+#submission-access {
+    color: #5F5E5E;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center; /* Center align the button */
+    width: 100%;
+    margin-top: 20px;
+}
+
+.submit-button button {
+    width: 445px;
+    height: 55px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.required {
+    color: red;
+    margin-left: 5px;
+}
+
+.input-box[type="file"] {
+    padding: 0;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 55px; /* Match the height of the input box for vertical centering */
+}
+
+/* Placeholder styling */
+::placeholder {
+    font-style: italic;
+}
+
+input::placeholder {
+    font-style: italic;
+}
+
+select::placeholder {
+    font-style: italic;
+}

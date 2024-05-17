@@ -13,21 +13,17 @@ const NavBar = () => {
           <a href="/dashboard" className="nav-link">HOME</a>
         </li>
         <li className="nav-item">
-          <a href="/submissions" className="nav-link">SUBMISSIONS</a>
+          <a href="/submit" className="nav-link">SUBMISSIONS</a>
         </li>
         <li className="nav-item">
           <a href="/requestform" className="nav-link">REQUESTS</a>
         </li>
         <li className="nav-item">
-          {/* Dropdown Trigger */}
           <div className="nav-link dropdown-toggle">MY ACCOUNT</div>
-          {/* Dropdown Menu */}
           <ul className="dropdown-menu">
             <li><a href="/">Logout</a></li>
-            
           </ul>
         </li>
-        
       </ul>
     </nav>
   );

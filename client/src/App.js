@@ -7,10 +7,12 @@ import Register from './components/Register';
 import Request from './components/requestForm';
 import Upload from './components/Upload';
 import Search from './components/search';
+import Submit from './components/Submit';
 function App() {
   return (
     <Routes>
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/submit" element={<Submit />} />
       <Route path="/description" element={<Description />} />
       <Route path="/register" element={<Register />} />
       <Route path="/uploadform" element={<Upload />} />
