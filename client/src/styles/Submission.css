@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body, html {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.submission-container {
+    display: flex;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.submission-box {
+    width: 302px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-right: 20px;
+    align-self: flex-start;
+}
+
+.submission-content button {
+    width: fit-content;
+    padding: 10px;
+    background-color: #527A54;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submission-box p {
+    font-size: 1em; /* Match the font size */
+    font-weight: bold;
+    color: #5F5E5E; /* Match the color */
+    margin: 0;
+    padding-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.submission-box span {
+    font-size: 1em; /* Match the font size */
+    font-weight: bold;
+    color: #5F5E5E; /* Match the color */
+    margin-left: 3px;
+}
+  
+.submission-box a {
+    display: block;
+    margin: 10px 0;
+    color: #527A54;
+    text-decoration: none;
+}
+  
+.submission-box a:hover {
+    text-decoration: underline;
+}
+  
+.submission-box button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #527A54;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submission-box button:hover {
+    background-color: #45a049;
+}
+
+.submission-header-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; /* Adjust this to move the header and button 20px to the right of the box */
+    margin-top: 0;
+}
+
+.submission-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #527A54;
+    margin-right: 10px; /* Space between header and button */
+}
+
+.filter-button {
+    padding: 10px;
+    background-color: #527A54;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-button:hover {
+    background-color: #45a049;
+}
+
+.upload-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 20px; /* Remove left and right margin */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.upload-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #527A54;
+    margin-right: 100px;
+}
+
+.upload-meta {
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+}
+
+.upload-keywords {
+    display: flex;
+    margin-top: 10px;
+}
+
+.upload-keywords span {
+    font-size: 0.9em;
+    color: #666;
+    margin-right: 10px;
+    align-self: center;
+}
+
+.upload-keyword {
+    background-color: rgba(82, 122, 84, 0.5); /* 50% opacity */
+    color: #FFFF;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    font-size: 0.8em;
+}
+
+.upload-actions {
+    display: flex;
+    align-items: center;
+}
+
+.upload-access {
+    background-color: #ffeb3b;
+    color: #666;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    margin-right: 10px;
+}
+
+.upload-access.public {
+    background-color: #527A54; /* Green background for public access */
+    color: white; /* Adjust text color for contrast */
+}
+
+.upload-download {
+    font-size: 1.5em;
+    color: #666;
+    cursor: pointer;
+}
+
+.upload-download:hover {
+    color: #527A54;
+}

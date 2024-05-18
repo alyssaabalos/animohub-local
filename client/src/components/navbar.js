@@ -13,7 +13,7 @@ const NavBar = () => {
           <a href="/dashboard" className="nav-link">HOME</a>
         </li>
         <li className="nav-item">
-          <a href="/submit" className="nav-link">SUBMISSIONS</a>
+          <a href="/submission" className="nav-link">SUBMISSIONS</a>
         </li>
         <li className="nav-item">
           <a href="/myrequests" className="nav-link">REQUESTS</a>

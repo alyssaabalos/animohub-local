@@ -10,11 +10,13 @@ import Search from './components/search';
 import Submit from './components/Submit';
 import MyRequests from './components/myRequests';
 import RequestResult from './components/requestResult';
+import Submission from './components/Submission';
 
 function App() {
   return (
     <Routes>
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/submission" element={<Submission />} />
       <Route path="/submit" element={<Submit />} />
       <Route path="/description" element={<Description />} />
       <Route path="/register" element={<Register />} />
