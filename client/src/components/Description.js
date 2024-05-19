@@ -2,12 +2,13 @@ import React from 'react';
 import '../styles/css/Description.css';
 import logo from '../styles/images/logo-nobg.png';
 import Sidebar from './Sidebar';
+import NavBar from './navbar';
 
 
 function Description() {
   return (
     <div className="App">
-      <Header />
+      <NavBar/>
       <div className="content">
       <Sidebar/>
         <MainContent />
@@ -16,6 +17,7 @@ function Description() {
   );
 }
 
+/*
 function Header() {
   return (
     <header className='description-navbar'>
@@ -32,7 +34,7 @@ function Header() {
   );
 }
 
-
+*/
 
 
 function MainContent() {
