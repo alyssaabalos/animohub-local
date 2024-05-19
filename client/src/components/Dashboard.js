@@ -16,11 +16,11 @@ const Dashboard = () => {
             <NavBar />
             <div className="dashboardContainer">
                 {/* Search Box Section */}
-                <div className="searchContainer">
+                <div className="search-Container">
                     <input 
                         type="text" 
                         placeholder="Search..." 
-                        className="searchInput"
+                        className="search-Input"
                     />
                     <button 
                         type="button" 
@@ -31,7 +31,10 @@ const Dashboard = () => {
                 </div>
                 <h1 className='page-title'>ALTDSI AnimoHub</h1>
                 <img src={logo} alt="Descriptive Alt Text" className="titleImage" />
-                <p className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <span className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
                 <h1 className='section-two'>Browse Papers and Datasets</h1>
                 <div className="boxes">
                     <div className="box">

@@ -9,48 +9,48 @@ const Upload = () => {
             <div className="upload-container">
                 <h1>Add a Document/Dataset</h1>
                 <form>
-                    <div className="form-group">
-                        <label htmlFor="submissionDate">Submission Date*</label>
-                        <input type="date" id="submissionDate" required />
+                    <div className="upload-form-group">
+                        <label htmlFor="submissionDate" className="upload-label">Submission Date*</label>
+                        <input type="date" id="submissionDate" className="upload-input-date" required />
                     </div>
-                    <div className="form-group">
-                        <label htmlFor="author">Author*</label>
-                        <input type="text" id="author" required />
+                    <div className="upload-form-group">
+                        <label htmlFor="author" className="upload-label">Author*</label>
+                        <input type="text" id="author" className="upload-input-text" required />
                     </div>
-                    <div className="form-group">
-                        <label htmlFor="coAuthors">Co-Authors</label>
-                        <input type="text" id="coAuthors" />
+                    <div className="upload-form-group">
+                        <label htmlFor="coAuthors" className="upload-label">Co-Authors</label>
+                        <input type="text" id="coAuthors" className="upload-input-text" />
                     </div>
-                    <div className="form-group">
-                        <label htmlFor="title">Document/Dataset Title*</label>
-                        <input type="text" id="title" required />
+                    <div className="upload-form-group">
+                        <label htmlFor="title" className="upload-label">Document/Dataset Title*</label>
+                        <input type="text" id="title" className="upload-input-text" required />
                     </div>
-                    <div className="form-group">
-                        <label htmlFor="fileType">File Type*</label>
-                        <select id="fileType" required>
+                    <div className="upload-form-group">
+                        <label htmlFor="fileType" className="upload-label">File Type*</label>
+                        <select id="fileType" className="upload-select" required>
                             <option value="">Select File Type</option>
-                            <option value="">DOCS</option>
-                            <option value="">IMG</option>
-                            <option value="">VID</option>
-                            <option value="">AUD</option>
+                            <option value="DOCS">DOCS</option>
+                            <option value="IMG">IMG</option>
+                            <option value="VID">VID</option>
+                            <option value="AUD">AUD</option>
                             {/* Add more options as needed */}
                         </select>
                     </div>
-                    <div className="form-group">
-                        <label htmlFor="fileUpload">Upload File*</label>
-                        <input type="file" id="fileUpload" required />
+                    <div className="upload-form-group">
+                        <label htmlFor="fileUpload" className="upload-label">Upload File*</label>
+                        <input type="file" id="fileUpload" className="upload-input-file" required />
                     </div>
-                    <div className="form-group">
-                        <label htmlFor="accessType">Access Type*</label>
-                        <select id="accessType" required>
+                    <div className="upload-form-group">
+                        <label htmlFor="accessType" className="upload-label">Access Type*</label>
+                        <select id="accessType" className="upload-select" required>
                             <option value="">Select Access Type</option>
-                            <option value="">Public</option>
-                            <option value="">Private</option>
-                            <option value="">Internal-Access</option>
-                            <option value="">Confidential</option>
+                            <option value="Public">Public</option>
+                            <option value="Private">Private</option>
+                            <option value="Internal-Access">Internal-Access</option>
+                            <option value="Confidential">Confidential</option>
                         </select>
                     </div>
-                    <button type="submit">Submit</button>
+                    <button type="submit" className="upload-button">Submit</button>
                 </form>
             </div>
         </div>

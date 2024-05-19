@@ -83,6 +83,7 @@
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     text-align: center; /* Center text within the button */
+    width: 100%;
 }
 
 .forgot-password {

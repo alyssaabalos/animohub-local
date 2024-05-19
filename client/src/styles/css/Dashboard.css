@@ -7,20 +7,21 @@
     justify-content: center; 
 }
 
-.searchContainer {
+.search-Container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.searchInput {
+.search-Input {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-right: 10px;
-    width: 200px; /* Adjust this value to make the input smaller or larger */
+    width: 300px; /* Adjust this value to make the input smaller or larger */
 }
 
 .searchButton {
