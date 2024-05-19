@@ -8,21 +8,19 @@
 }
 
 .searchContainer {
-    display: flex;  
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: auto;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .searchInput {
     padding: 10px;
-    width: 500px;  
-    background-color: #d3d3d3;
-    border: 1px solid #bbb;
-    border-right: none;  
-    margin-right: 8px; 
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 200px; /* Adjust this value to make the input smaller or larger */
 }
 
 .searchButton {
@@ -33,7 +31,7 @@
     cursor: pointer; 
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
-
+    width: fit-content;
 }
 
 .page-title {
@@ -49,15 +47,15 @@
 }
 
 .description {
-    width: 1231px;  
+    width: 75%;  
     height: auto;  
-    overflow: auto;  
     padding: 10px;  
     box-sizing: border-box; 
     font-family: 'Poppins', sans-serif;
     align-items: center; 
     justify-content: center;  
     text-align: center; 
+    background: transparent;
 }
 
 .section-two {
@@ -126,13 +124,6 @@
     margin-top: 26px;
 }
 
-.glance-title {
-    margin-top: 20px;
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-    color: #5F5E5E;
-}
-
 .glance-boxes {
     display: flex;
     flex-direction: column; /* Stacks the boxes vertically */
@@ -159,13 +150,7 @@
     text-align: left; /* Centers the text */
     font-family: 'Poppins', sans-serif; /* Sets the font style */
     font-size: 20px; /* Sets the size of the font */
-}
-
-.paper-title {
-    margin-top: 20px;
-    text-align: left;
-    font-family: 'Poppins', sans-serif;
-    color: #5F5E5E;
+    padding-bottom: 10px;
 }
 
 .paper-boxes {
@@ -183,7 +168,7 @@
     justify-content: center; /* Centers the contents vertically */
     width: 440px; /* Sets a fixed width for each box */
     padding: 15px; /* Adds padding inside the box */
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     border: 1px solid #ccc; /* Adds a subtle border */
     font-family: 'Poppins', sans-serif; /* Sets the font style */
     font-size: 15px; /* Sets the size of the font */
@@ -194,13 +179,15 @@
     text-align: left; /* Centers the text */
     font-family: 'Poppins', sans-serif; /* Sets the font style */
     font-size: 16px; /* Sets the size of the font */
+    padding-bottom: 10px;
 }
 
-.dataset-title {
+.title {
     margin-top: 20px;
     text-align: left;
     font-family: 'Poppins', sans-serif;
     color: #5F5E5E;
+    font-weight: bold;
 }
 
 .dataset-boxes {
@@ -229,6 +216,7 @@
     text-align: left; /* Centers the text */
     font-family: 'Poppins', sans-serif; /* Sets the font style */
     font-size: 16px; /* Sets the size of the font */
+    padding-bottom: 10px;
 }
 
 .main-content {

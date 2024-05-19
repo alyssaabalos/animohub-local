@@ -42,7 +42,15 @@
     color: #527A54; /* Change color to green on hover */
 }
 
+.logout-link {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px; /* Adjust padding for better alignment */
+}
+
 .logout-link:hover {
+    background-color: transparent; /* Keep background transparent on hover */
     color: red; /* Sets the text color to red */
 }
 
@@ -53,6 +61,7 @@
 /* Dropdown Styles */
 .dropdown-toggle {
     cursor: pointer;
+    position: relative;
 }
 
 .dropdown-menu {
@@ -63,20 +72,12 @@
     z-index: 1;
     right: 0;
     border: 1px solid #ddd; /* Optional */
+    min-width: 120px; /* Ensures the dropdown menu is wide enough */
+    padding: 0; /* Remove padding */
 }
 
-.dropdown-menu li a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    width: 100%; /* Ensures the entire area is clickable */
-}
-
-.dropdown-menu li a:hover {
-    background-color: #f1f1f1;
-}
-
-.nav-item:hover .dropdown-menu {
+.dropdown-toggle:hover .dropdown-menu {
     display: block; /* Show dropdown on hover */
+    top: 100%; /* Ensures the dropdown menu appears below the toggle */
+    left: 0;
 }

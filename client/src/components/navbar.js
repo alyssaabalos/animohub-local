@@ -19,10 +19,11 @@ const NavBar = () => {
           <a href="/myrequests" className="nav-link">REQUESTS</a>
         </li>
         <li className="nav-item">
-          <div className="nav-link dropdown-toggle">MY ACCOUNT</div>
-          <ul className="dropdown-menu">
-            <li><a href="/">Logout</a></li>
-          </ul>
+          <div className="nav-link dropdown-toggle">MY ACCOUNT
+            <div className="dropdown-menu">
+              <a href="/" className="logout-link">Logout</a>
+            </div>
+          </div>
         </li>
       </ul>
     </nav>
