@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';  // Import Link here
 import ImageStack from './imageStack';
 import { GoogleOAuthProvider, GoogleLogin } from '@react-oauth/google';
 import '../styles/css/LoginPage.css';
-import logo from '../styles/logo-nobg.png';
+import logo from '../styles/images/logo-nobg.png';
 
 const LoginPage = () => {
   const navigate = useNavigate();

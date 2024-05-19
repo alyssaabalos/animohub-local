@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/css/stack.css';
-import image1 from '../styles/compsci.jpeg';
-import image2 from '../styles/altdsi.png';
-import image3 from '../styles/henry-sy-hall.jpeg'
+import image1 from '../styles/images/compsci.jpeg';
+import image2 from '../styles/images/altdsi.png';
+import image3 from '../styles/images/henry-sy-hall.jpeg'
 
 
 const ImageStack = () => {

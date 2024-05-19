@@ -2,13 +2,13 @@ import React from 'react';
 import NavBar from './navbar';
 import Footer from './Footer';
 import '../styles/css/Dashboard.css'; // Import the styles
-import logo from '../styles/dlsu-henry.png';
-import paper from '../styles/paper.png';
-import software from '../styles/software.png';
-import excel from '../styles/excel.png';
-import sound from '../styles/sound.png';
-import video from '../styles/video.png';
-import gallery from '../styles/gallery.png';
+import logo from '../styles/images/dlsu-henry.png';
+import paper from '../styles/images/paper.png';
+import software from '../styles/images/software.png';
+import excel from '../styles/images/excel.png';
+import sound from '../styles/images/sound.png';
+import video from '../styles/images/video.png';
+import gallery from '../styles/images/gallery.png';
 
 
 const Dashboard = () => {

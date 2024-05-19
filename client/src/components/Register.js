@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import ImageStack from './imageStack';
 import '../styles/css/Register.css';
-import logo from '../styles/logo-nobg.png'; // Make sure the image path is correct and the image has a transparent background
+import logo from '../styles/images/logo-nobg.png'; // Make sure the image path is correct and the image has a transparent background
 
 const Register = () => {
   const navigate = useNavigate();
