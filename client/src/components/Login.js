@@ -1,11 +1,9 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';  // Import Link here
 import ImageStack from './imageStack';
 import { GoogleOAuthProvider, GoogleLogin } from '@react-oauth/google';
 import '../styles/LoginPage.css';
 import logo from '../styles/logo-nobg.png';
-
-
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -24,10 +22,6 @@ const LoginPage = () => {
   const handleGoogleFailure = (error) => {
     console.error('Google Sign in was unsuccessful: ', error);
     // Optionally handle errors, such as showing a message to the user
-  };
-
-  const handleRegister = () => {
-    navigate('/register');
   };
 
   return (
@@ -51,12 +45,12 @@ const LoginPage = () => {
           <form className="login-form" onSubmit={handleLogin}>
             <input type="email" placeholder="Email" />
             <input type="password" placeholder="Password" />
-            <button type="submit">LOGIN</button>
+            <div className="button-container">
+              <button type="submit">LOGIN</button>
+              <div className="forgot-password">Forgot Password?</div> {/* Move this inside the button container */}
+            </div>
           </form>
-          <div className="forgot-password">Forgot Password?</div>
-          <div className="register-section">
-            Don't have an account? <button onClick={handleRegister}>Register</button>
-          </div>
+          <p id="question">Don't have an account? <Link to="/register">Register</Link>.</p>
         </div>
       </div>
     </div>
