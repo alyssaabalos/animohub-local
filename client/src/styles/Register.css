@@ -17,6 +17,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-align: center;
+    background-color: transparent;
 }
 
 .register-logo {
@@ -78,6 +79,8 @@ a {
 
 #question
 {
-    padding-left: 70px;
+    text-align: center; /* Centers the text */
     font-family: 'Poppins', sans-serif;
+    background-color: transparent; /* removes background from #question */
+    margin: 0;
 }

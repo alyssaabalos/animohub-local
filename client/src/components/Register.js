@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import ImageStack from './imageStack';
 import '../styles/Register.css';
-import logo from '../styles/logo-nobg.png';
+import logo from '../styles/logo-nobg.png'; // Make sure the image path is correct and the image has a transparent background
 
 const Register = () => {
   const navigate = useNavigate();
@@ -59,12 +59,9 @@ const Register = () => {
             <input type="email" name="email" placeholder="Email" required />
             <input type="password" pattern="(?=.*\d)(?=.*[a-zA-Z]).{8,}" name="password" placeholder="Password" title="Password must be at least 8 characters long and include letters and numbers." required />
             <input type="password" pattern="(?=.*\d)(?=.*[a-zA-Z]).{8,}" name="confirmPassword" placeholder="Confirm Password" required />
-            <button type="submit" className='submit'>REGISTER</button>
+            <button type="submit" className="submit">REGISTER</button>
           </form>
-          <br>
-          </br>
-            <p id="question">Already have an account? <Link to="/">Sign in</Link>.</p>
-          
+          <p id="question">Already have an account? <Link to="/">Sign in</Link>.</p>
         </div>
       </div>
     </div>
