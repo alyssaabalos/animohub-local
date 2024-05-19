@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './navbar';
-import '../styles/requestResult.css';
+import '../styles/css/requestResult.css';
 
 const RequestResult = () => {
     const requestDetails = {

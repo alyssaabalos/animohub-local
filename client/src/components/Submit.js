@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './navbar';
-import '../styles/Submit.css';
+import '../styles/css/Submit.css';
 
 const Submit = () => {
   return (

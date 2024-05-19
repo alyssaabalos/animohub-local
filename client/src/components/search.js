@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './navbar';
-import '../styles/search-result.css';
+import '../styles/css/search-result.css';
 import Sidebar from './Sidebar'
 import Footer from './Footer';
 

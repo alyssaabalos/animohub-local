@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/stack.css';
+import '../styles/css/stack.css';
 import image1 from '../styles/compsci.jpeg';
 import image2 from '../styles/altdsi.png';
 import image3 from '../styles/henry-sy-hall.jpeg'

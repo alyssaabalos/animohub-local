@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Description.css';
+import '../styles/css/Description.css';
 import logo from '../styles/logo-nobg.png';
 import Sidebar from './Sidebar';
 

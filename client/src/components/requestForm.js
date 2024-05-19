@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './navbar';
-import '../styles/request.css';
+import '../styles/css/request.css';
 
 const requestForm = () => {
     return (

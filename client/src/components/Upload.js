@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './navbar';
-import '../styles/Upload.css'
+import '../styles/css/Upload.css'
 
 const Upload = () => {
     return (
